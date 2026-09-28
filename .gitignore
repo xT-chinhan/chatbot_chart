@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+.turbo/
+.next/
+out/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Local runtime storage & output caches
+storage/diagrams/*
+!storage/diagrams/.gitkeep
+apps/agent-server/storage/diagrams/*
+!apps/agent-server/storage/diagrams/.gitkeep
+apps/web-portal/storage/diagrams/*
+!apps/web-portal/storage/diagrams/.gitkeep
+
+# 3rd-party reference repositories
+repos/
+
+# Scratch & temporary scripts
+scratch/
